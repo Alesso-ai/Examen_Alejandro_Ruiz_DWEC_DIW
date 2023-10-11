@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(){
      valores.*/
     const longitud = parseFloat(document.getElementById("longitud").value);
     const ancho = parseFloat(document.getElementById("ancho").value);
-    
+        
 
     if(!isNaN(ancho) && !isNaN(longitud)){
 
