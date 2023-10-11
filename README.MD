@@ -1,0 +1,3 @@
+# Examen del dia 11/10/2023 
+# **Autor** Alejandro Ruiz Prieto
+# **Profesion** Ya veremos....

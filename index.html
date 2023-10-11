@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Aqui hemos creado el linkado de los estilos y el favicon para el 
+    iconito de arriba de la pestaña en la web-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link favicon="favicon.ico" href="assets/Favicon.ico" type="image/type">
+    
+</head>
+
+<body>
+
+    <!-- A partir de aqui he creado un main para trabajar dentro de ello
+    Un titulo, varios divs para los dos inputs y labels y luego
+    3 spanes para dar las respuestas del script creado.
+    Tambien dentro de cada uno de las etiquetas tienen su enlace con el script
+    su tipo de dato y el placeholder para que aparezca en el inputo lo que tienes 
+    que meter -->
+        <main>
+            
+        <h1>Calculadora de Área ,Perímetro y diagonal de un rectangulo</h1>
+        
+        <div class="contenedor-1">
+        <label for="largo">Longitud:</label>
+        <input type="number" id="longitud" placeholder="Ingrese la Longitud">
+        </div>
+
+        <div class="contenedor-2">
+        <label for="ancho">Ancho:</label>
+        <input type="number" id="ancho" placeholder=" Ingrese el Ancho">
+        </div>
+        
+        <div class="boton">
+        <button id="calcular" class="btn"  type="button">Calcular </button>
+        </div>
+
+        <div class="respuesta">
+        <span id="area"></span>
+        </br>
+        <span id="perimetro"></span>
+        </br>
+        <span id="diagonal"></span>
+        </div>
+
+    </main>
+
+    <!-- Aqui el linkado del script-->
+    <script src="scripts/main.js"></script>
+</body>
+</body>
+</html>
